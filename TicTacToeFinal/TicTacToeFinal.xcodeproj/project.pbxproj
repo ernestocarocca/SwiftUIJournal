@@ -16,6 +16,8 @@
 		BFC0EB0E294B8ED000568FB0 /* TicTacToeFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EB0D294B8ED000568FB0 /* TicTacToeFinalTests.swift */; };
 		BFC0EB18294B8ED000568FB0 /* TicTacToeFinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EB17294B8ED000568FB0 /* TicTacToeFinalUITests.swift */; };
 		BFC0EB1A294B8ED000568FB0 /* TicTacToeFinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EB19294B8ED000568FB0 /* TicTacToeFinalUITestsLaunchTests.swift */; };
+		BFC0EB27294B994100568FB0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EB26294B994100568FB0 /* GameViewController.swift */; };
+		BFC0EB29294BAE6300568FB0 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0EB28294BAE6200568FB0 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BFC0EB13294B8ED000568FB0 /* TicTacToeFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC0EB17294B8ED000568FB0 /* TicTacToeFinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeFinalUITests.swift; sourceTree = "<group>"; };
 		BFC0EB19294B8ED000568FB0 /* TicTacToeFinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeFinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFC0EB26294B994100568FB0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = SOURCE_ROOT; };
+		BFC0EB28294BAE6200568FB0 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				BFC0EAF6294B8ECD00568FB0 /* AppDelegate.swift */,
 				BFC0EAF8294B8ECD00568FB0 /* SceneDelegate.swift */,
 				BFC0EAFA294B8ECD00568FB0 /* ViewController.swift */,
+				BFC0EB28294BAE6200568FB0 /* Player.swift */,
+				BFC0EB26294B994100568FB0 /* GameViewController.swift */,
 				BFC0EAFC294B8ECD00568FB0 /* Main.storyboard */,
 				BFC0EAFF294B8ECF00568FB0 /* Assets.xcassets */,
 				BFC0EB01294B8ECF00568FB0 /* LaunchScreen.storyboard */,
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFC0EB27294B994100568FB0 /* GameViewController.swift in Sources */,
 				BFC0EAFB294B8ECD00568FB0 /* ViewController.swift in Sources */,
 				BFC0EAF7294B8ECD00568FB0 /* AppDelegate.swift in Sources */,
+				BFC0EB29294BAE6300568FB0 /* Player.swift in Sources */,
 				BFC0EAF9294B8ECD00568FB0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
