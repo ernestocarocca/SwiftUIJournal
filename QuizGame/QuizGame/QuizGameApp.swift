@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-
+import FirebaseCore
+import FirebaseFirestore
 @main
 struct QuizGameApp: App {
     var body: some Scene {

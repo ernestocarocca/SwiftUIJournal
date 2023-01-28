@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9F4B1E29645136004A8873 /* FireBase_ShopingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F4B1D29645136004A8873 /* FireBase_ShopingListTests.swift */; };
+		BF9F4B2829645136004A8873 /* FireBase_ShopingListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F4B2729645136004A8873 /* FireBase_ShopingListUITests.swift */; };
+		BF9F4B2A29645136004A8873 /* FireBase_ShopingListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F4B2929645136004A8873 /* FireBase_ShopingListUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF9F4B0C29645131004A8873 /* FireBase_ShopingListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase_ShopingListApp.swift; sourceTree = "<group>"; };
+		BF9F4B0E29645131004A8873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF9F4B1029645136004A8873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9F4B1329645136004A8873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF9F4B1929645136004A8873 /* FireBase-ShopingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireBase-ShopingListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F4B1D29645136004A8873 /* FireBase_ShopingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase_ShopingListTests.swift; sourceTree = "<group>"; };
+		BF9F4B2329645136004A8873 /* FireBase-ShopingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireBase-ShopingListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F4B2729645136004A8873 /* FireBase_ShopingListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase_ShopingListUITests.swift; sourceTree = "<group>"; };
+		BF9F4B2929645136004A8873 /* FireBase_ShopingListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase_ShopingListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF9F4B3629645355004A8873 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info (1).plist"; path = "../../../../Downloads/GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		BF9F4B3929645625004A8873 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9F4B1629645136004A8873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F4B2029645136004A8873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9F4B0029645131004A8873 = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B0B29645131004A8873 /* FireBase-ShopingList */,
+				BF9F4B1C29645136004A8873 /* FireBase-ShopingListTests */,
+				BF9F4B2629645136004A8873 /* FireBase-ShopingListUITests */,
+				BF9F4B0A29645131004A8873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9F4B0A29645131004A8873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B1929645136004A8873 /* FireBase-ShopingListTests.xctest */,
+				BF9F4B2329645136004A8873 /* FireBase-ShopingListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9F4B0B29645131004A8873 /* FireBase-ShopingList */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B0C29645131004A8873 /* FireBase_ShopingListApp.swift */,
+				BF9F4B3929645625004A8873 /* Item.swift */,
+				BF9F4B0E29645131004A8873 /* ContentView.swift */,
+				BF9F4B1029645136004A8873 /* Assets.xcassets */,
+				BF9F4B1229645136004A8873 /* Preview Content */,
+			);
+			path = "FireBase-ShopingList";
+			sourceTree = "<group>";
+		};
+		BF9F4B1229645136004A8873 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B3629645355004A8873 /* GoogleService-Info (1).plist */,
+				BF9F4B1329645136004A8873 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF9F4B1C29645136004A8873 /* FireBase-ShopingListTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B1D29645136004A8873 /* FireBase_ShopingListTests.swift */,
+			);
+			path = "FireBase-ShopingListTests";
+			sourceTree = "<group>";
+		};
+		BF9F4B2629645136004A8873 /* FireBase-ShopingListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F4B2729645136004A8873 /* FireBase_ShopingListUITests.swift */,
+				BF9F4B2929645136004A8873 /* FireBase_ShopingListUITestsLaunchTests.swift */,
+			);
+			path = "FireBase-ShopingListUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9F4B1829645136004A8873 /* FireBase-ShopingListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9F4B3029645136004A8873 /* Build configuration list for PBXNativeTarget "FireBase-ShopingListTests" */;
+			buildPhases = (
+				BF9F4B1529645136004A8873 /* Sources */,
+				BF9F4B1629645136004A8873 /* Frameworks */,
+				BF9F4B1729645136004A8873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FireBase-ShopingListTests";
+			productName = "FireBase-ShopingListTests";
+			productReference = BF9F4B1929645136004A8873 /* FireBase-ShopingListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF9F4B2229645136004A8873 /* FireBase-ShopingListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9F4B3329645136004A8873 /* Build configuration list for PBXNativeTarget "FireBase-ShopingListUITests" */;
+			buildPhases = (
+				BF9F4B1F29645136004A8873 /* Sources */,
+				BF9F4B2029645136004A8873 /* Frameworks */,
+				BF9F4B2129645136004A8873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FireBase-ShopingListUITests";
+			productName = "FireBase-ShopingListUITests";
+			productReference = BF9F4B2329645136004A8873 /* FireBase-ShopingListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9F4B0129645131004A8873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BF9F4B1829645136004A8873 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BF9F4B0829645131004A8873;
+					};
+					BF9F4B2229645136004A8873 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BF9F4B0829645131004A8873;
+					};
+				};
+			};
+			buildConfigurationList = BF9F4B0429645131004A8873 /* Build configuration list for PBXProject "FireBase-ShopingList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9F4B0029645131004A8873;
+			packageReferences = (
+				BF9F4B38296453F7004A8873 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = BF9F4B0A29645131004A8873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9F4B1829645136004A8873 /* FireBase-ShopingListTests */,
+				BF9F4B2229645136004A8873 /* FireBase-ShopingListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9F4B1729645136004A8873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F4B2129645136004A8873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9F4B1529645136004A8873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F4B1E29645136004A8873 /* FireBase_ShopingListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F4B1F29645136004A8873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F4B2A29645136004A8873 /* FireBase_ShopingListUITestsLaunchTests.swift in Sources */,
+				BF9F4B2829645136004A8873 /* FireBase_ShopingListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF9F4B2B29645136004A8873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF9F4B2C29645136004A8873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9F4B3129645136004A8873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FireBase-ShopingListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBase-ShopingList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FireBase-ShopingList";
+			};
+			name = Debug;
+		};
+		BF9F4B3229645136004A8873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FireBase-ShopingListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBase-ShopingList.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FireBase-ShopingList";
+			};
+			name = Release;
+		};
+		BF9F4B3429645136004A8873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FireBase-ShopingListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FireBase-ShopingList";
+			};
+			name = Debug;
+		};
+		BF9F4B3529645136004A8873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.FireBase-ShopingListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FireBase-ShopingList";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9F4B0429645131004A8873 /* Build configuration list for PBXProject "FireBase-ShopingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F4B2B29645136004A8873 /* Debug */,
+				BF9F4B2C29645136004A8873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9F4B3029645136004A8873 /* Build configuration list for PBXNativeTarget "FireBase-ShopingListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F4B3129645136004A8873 /* Debug */,
+				BF9F4B3229645136004A8873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9F4B3329645136004A8873 /* Build configuration list for PBXNativeTarget "FireBase-ShopingListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F4B3429645136004A8873 /* Debug */,
+				BF9F4B3529645136004A8873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF9F4B38296453F7004A8873 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = BF9F4B0129645131004A8873 /* Project object */;
+}

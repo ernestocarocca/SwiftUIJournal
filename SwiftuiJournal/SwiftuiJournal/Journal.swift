@@ -1,9 +1,3 @@
-//
-//  Journal.swift
-//  SwiftUiJournal
-//
-//  Created by David Svensson on 2022-12-22.
-//
 import Foundation
 
 
@@ -20,5 +14,11 @@ class Journal : ObservableObject {
         entries.append(JournalEntry(content: "Sov"))
         entries.append(JournalEntry(content: "Programmerade"))
         entries.append(JournalEntry(content: "Badade"))
+    }
+    
+    func update(entry: JournalEntry, with content: String) {
+        if let index = entries.firstIndex(of: entry) {
+            entries[index].content = content
+        }
     }
 }
